@@ -24,3 +24,7 @@ Description: Create and store your notes for a later purpose!
 ## Example project
 
 * [AngularJS Markdown Notes App](https://codepen.io/nickmoreton/pen/gbyygq)
+
+## Source
+
+* [Here are some app ideas you can build to level up your coding skills](https://medium.com/free-code-camp/here-are-some-app-ideas-you-can-build-to-level-up-your-coding-skills-39618291f672)
