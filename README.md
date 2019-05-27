@@ -16,6 +16,10 @@ Create and store your notes for later purpose!
 -   [ ] User can create and edit a note in Markdown format. On save it will convert Markdown to HTML
 -   [ ] User can see the date when he created the note
 
+## Additional features
+
+-   [ ] User can toggle the theme to light/dark
+
 ## Useful links and resources
 
 -   [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
