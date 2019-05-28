@@ -10,6 +10,8 @@ branches:
   - master
 notifications:
   email: false
+install:
+  - npm install
 before_script:
   - npm prune
 script:
@@ -20,6 +22,8 @@ script:
   # create .nojekyll files
   # We are telling GitHub to not process this branch using jekyll
   - touch .nojekyll
+after_success:
+  - npm run lh -- --perf=80 --pwa=80 --a11y=80 --bp=80 --seo=80 https://fabriciofmsilva.com.br/notes-app/
 deploy:
   provider: pages
   skip_cleanup: true
