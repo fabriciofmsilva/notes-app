@@ -1,0 +1,23 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "**Tier:** 1-Beginner",
+  "main": "index.js",
+  "scripts": {
+    "publish": "gh-pages -d dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabriciofmsilva/notes-app.git"
+  },
+  "author": "Fabrício Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabriciofmsilva/notes-app/issues"
+  },
+  "homepage": "https://github.com/fabriciofmsilva/notes-app#readme",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
